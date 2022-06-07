@@ -30,10 +30,11 @@ boy.scale=0.5;
 //crie um limite à esquerda
 leftBoundary=createSprite(0,0,100,800);
 //defina visibilidade como falsa para o limite à esquerda
-
+leftBoundary.visible = false;
 //crie um limite à direita
 rightBoundary=createSprite(410,0,100,800);
 //defina visibilidade como falsa para o limite à direita
+rightBoundary.visible = false;
 }
 
 function draw() {
